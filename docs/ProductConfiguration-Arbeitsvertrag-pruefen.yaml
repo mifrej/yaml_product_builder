@@ -1,0 +1,49 @@
+---
+  pages: 
+    - 
+      title: "Stelle beschreiben"
+      elements: 
+        - "element1"
+    - 
+      title: "Vereinbarungen angeben"
+      elements: 
+        - "element2"
+        - "element3"
+        - "element4"
+        - "element5"
+    - 
+      title: "Vertrag hochladen"
+      elements: 
+        - "element6"
+  elements: 
+    - 
+      id: "element1"
+      type: "textarea"
+      title: "<strong>Beschreiben Sie Ihre Hauptaufgaben. <span class='mandatory'>*</span></strong>"
+      placeholder: "Ich leite ein Sales-Team mit 5 Mitarbeitern und überwache deren Leistung. Darüber hinaus kümmere ich mich um weitere Personaleinstellungen."
+    - 
+      id: "element2"
+      type: "input"
+      title: "<strong>Was ist vereinbarter Arbeitsort?</strong>"
+      placeholder: "Hamburg, Berlin"
+    - 
+      id: "element3"
+      type: "radio-group"
+      title: "<strong>Sind Sie auch mit Wochenendarbeit einverstanden? <span class='mandatory'>*</span></strong>"
+      values:
+        - "Ja"
+        - "Nein"
+    - 
+      id: "element4"
+      type: "textarea"
+      title: "<strong>Wurden Ihnen Sachleistungen, Prämien, Urlaubsgeld, Weihnachtsgeld, 13. Monatsgehalt oder sonstige Sonderzahlungen versprochen?</strong>"
+      placeholder: ""
+    -
+      id: "element5"
+      type: "textarea"
+      title: "<strong>Gibt es Klauseln, mit denen Sie unzufrieden sind?</strong><br />Ihr Anwalt kann Ihnen sagen, welche Klauseln zulässig sind."
+      placeholder: ""
+    - 
+      id: "element6"
+      type: "file-upload"
+      title: "<strong>Laden Sie den Vertragsentwurf hoch <span class='mandatory'>*</span></strong>"
