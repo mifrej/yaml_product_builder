@@ -32,7 +32,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "bower-webpack-plugin": "^0.1.9",
     "chai": "^3.2.0",
-    "copyfiles": "^0.2.1",
+    "copyfiles": "^2.1.1",
     "css-loader": "^0.23.0",
     "eslint": "^2.2.0",
     "eslint-loader": "^1.0.0",
